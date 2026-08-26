@@ -211,6 +211,7 @@ HIGHLIGHTS
 }
 .books{
     display: flex;
+    flex-wrap: wrap;
 }
 .book{
     width:25%;
