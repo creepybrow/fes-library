@@ -30,6 +30,9 @@ p{
 }
 .library__logo{
     width:160px;
+    display: flex;
+    margin: 0 auto;
+    height:200px;
 }
 .nav__container{
     width:100%;
@@ -104,6 +107,8 @@ button:active{
     border:none;
     width:200px;
     margin:0 auto;
+    display: flex;
+    text-align: center;
 }
 .header__img--wrapper{
     padding:20px;
@@ -117,6 +122,11 @@ button:active{
     width:100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.row__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .highlight__wrapper{
     display: flex;
@@ -231,4 +241,13 @@ HIGHLIGHTS
 }
 #recent{
     background-color: #7342d6;
+}
+#explore{
+    padding:16px 0;
+    min-height: 200px;
+    background-color: #a083d8;
+}
+footer{
+    background-color: #242424;
+    min-height:200px;
 }
