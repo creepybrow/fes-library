@@ -17,6 +17,9 @@ nav{
     font-weight: bold;
     padding: 8px;
 }
+p{
+    line-height: 1.5;
+}
 .library__logo{
     width:160px;
 }
@@ -109,12 +112,37 @@ button:active{
 .highlight__wrapper{
     display: flex;
     justify-content: center;
+    border: 2px solid purple;
 }
 .highlight{
     width:calc(100%/3);
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
     line-height: 1.5;
     padding: 0 24px;
+}
+.highlight__para{
+    text-align: center;
+    max-width: 280px;
+}
+.highlight__img{
+    border:2px solid rgba(128, 0, 128, 0.473);
+    color:#7342d6;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.highlight__title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 
 /*
