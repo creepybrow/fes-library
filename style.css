@@ -251,3 +251,20 @@ footer{
     background-color: #242424;
     min-height:200px;
 }
+.footer__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__link{
+    color:white;
+    font-weight: bold;
+    padding-left: 28px;
+    text-decoration: none;
+}
+.copyright{
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
