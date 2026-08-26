@@ -57,10 +57,10 @@ h1{
 }
 h2{
     text-align: center;
-    margin-bottom:150px;
+    margin-bottom:50px;
 }
 .text--purple{
-    color:purple;
+    color:#7342d6;
 }
 .header__container{
     width:100%;
@@ -68,7 +68,7 @@ h2{
     height:100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
 }
 
@@ -78,3 +78,35 @@ h2{
     display: flex;
     margin:0 auto;
 }
+button{
+    cursor:pointer;
+}
+button:active{
+    transform: translateY(1px);
+}
+.btn{
+    background-color: #7342d6;
+    color:white;
+    padding:12px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border:none;
+    width:200px;
+    margin:0 auto;
+}
+.header__img--wrapper{
+    padding:20px;
+}
+
+.highlights__container{
+    padding:56px;
+}
+.row{
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+HIGHLIGHTS
+*/
